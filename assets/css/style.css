@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../images/moving\ 1.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav_main {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    
+}
+
+.nav_main > ul > li {
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.first_p {
+    color: yellow;
+    font-size: 50px;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.second_p {
+    color: white;
+    font-size: 30px;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.section_two {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+    
+}
+.moving_2 {
+    width: 100%;
+}
+
+.third_p, .third_p_h, .third_p_btn {
+    margin-left: 30px;
+    padding-right: 33%;
+    font-size: 29px;
+}
+
+.grid_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    width: 100%;
+    gap: 20px;
+}
+.image_1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 50%;
+}
+.image_2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    width: 100%;
+}
+.image_3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    width: 100%;
+}
+
