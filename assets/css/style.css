@@ -25,6 +25,10 @@ header{
     font-size: 20px;
 }
 
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
 .first_p {
     color: yellow;
     font-size: 50px;
