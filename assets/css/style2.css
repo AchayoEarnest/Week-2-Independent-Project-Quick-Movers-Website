@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', 'Actor', 'Adamina';
 }
 
 .main div {
@@ -56,7 +56,7 @@ main {
     margin-right: 100px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 500px 82px 115px 350px 300px;
+    grid-template-rows: 500px 82px 115px 350px 400px;
     gap: 15px;
     padding: 15px;
     min-width: 950px;
@@ -212,14 +212,14 @@ main {
     border-right: 1px solid grey;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 60px;
+    padding-right: 80px;
 }
 
 #num_two {
     border-right: 1px solid grey;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 60px;
+    padding-right: 100px;
 }
 #num_two_sharp {
     border-right: 1px solid grey;
@@ -276,7 +276,7 @@ main {
 .flex_list_sect_1 {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .section_b, .section_c, .section_d, 
@@ -368,4 +368,15 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 0px;
+}
+
+.tick_bullets {
+    list-style-image: url(../icons/icons8-checked-checkbox-30.png);    
+}
+
+.tick_bullets > li {
+    margin-top: 0;
+}
+li::marker {
+    image-s: 3px;
 }

@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', 'Actor', 'Adamina';
 }
 
 header{
@@ -28,6 +28,13 @@ header{
 nav > ul > li > a {
     text-decoration: none;
     color: white;
+    
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+    color: red;
+    
 }
 .first_p {
     color: yellow;
@@ -57,11 +64,37 @@ nav > ul > li > a {
     margin-bottom: 50px;
 }
 
-.third_p, .third_p_h, .third_p_btn {
-    margin-left: 30px;
-    padding-right: 33%;
-    font-size: 29px;
+.content_1 {
+margin-left: 50px;
 }
+
+
+
+.third_p_h {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#cut_border_top {
+    border-top: 5px solid black;
+    padding-top: 25px;
+}
+
+.third_p {
+    font-size: 40px;
+}
+
+.third_p_btn {
+    width: 250px;
+    height: 80px;
+    margin-top: 50px;
+    background-color: black;
+    border-style: none;
+    color: yellow;
+    font-size: 30px;
+    border-top-right-radius: 25px;
+}
+
 
 .section_three {
     background-color: rgb(238, 236, 236);
@@ -90,7 +123,7 @@ nav > ul > li > a {
 }
 
 #thumbnail_1 {
-    height: 482px;
+    height: 485px;
     width: 420px;
     background-color: white;
     margin-left: 0px;
@@ -141,57 +174,10 @@ nav > ul > li > a {
     padding-right: 0px;
 }
 
-
-
-
-
-/*.thumbnail_1 {
-    display: inline-block;
-    width: 31%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    vertical-align: top;
-    margin-right: 18px;
-    padding: 0;
-    
+.icons {
+    width: 16px;
+    padding-right: 5px;
 }
-.lower_part {
-    background-color: white;
-    width: 100%;
-    padding-top: 0;
-}
-#a_movers {
-    margin-bottom: 30px;
-}
-.flex_icons {
-    display: flex;
-    justify-content: space-evenly;
-    border-top: 1px solid black;
-    
-}
-.flex_icons_4 {
-    border-right: 1px solid black;
-    padding-right: 15%;
-}
-.flex_icons_2 {
-    border-right: 1px solid black;
-    padding-right: 15%;
-}
-.flex_icons_#2 {
-    border-right: 1px solid black;
-    padding-right: 15%;
-}
-*/
-
-
-
-
-
-
-
-
-
-
 
 footer{
     background-color: rgb(0, 0, 7);
@@ -213,6 +199,5 @@ footer{
 .orange_footer_text {
     color: orange;
 }
-button {
-    color: ;
-}
+
+
