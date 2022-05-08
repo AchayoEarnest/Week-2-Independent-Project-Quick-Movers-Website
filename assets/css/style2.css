@@ -9,7 +9,7 @@
 }
 
 header{
-    background-color: black;
+    background-color: #050505;
     height: 200px;
 }
 
@@ -199,6 +199,10 @@ main {
     margin-bottom: 30px;
     margin-top: 20px;
     padding-left: 50px;
+}
+
+#detail_section_background {
+    
 }
 
 .lower_section {
