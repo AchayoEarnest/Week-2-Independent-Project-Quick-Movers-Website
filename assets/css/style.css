@@ -67,6 +67,7 @@ nav > ul > li > a:hover{
     margin-left: 30px;
 }
 
+
 .section_two {
     display: flex;
     flex-direction: row;
@@ -229,4 +230,7 @@ footer{
     color: orange;
 }
 
+.ul_flex {
+    display: flex;
+}
 
