@@ -168,6 +168,7 @@ main {
     background-color: black;
     color: white;
     border-style: none;
+    border-top-right-radius: 7px;
 }
 
 #image_num_x {
