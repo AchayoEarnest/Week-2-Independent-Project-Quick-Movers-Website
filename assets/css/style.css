@@ -230,7 +230,45 @@ footer{
     color: orange;
 }
 
+#social_handle {
+    width: 30px;   
+}
+
+.icons > ul > li {
+    list-style: none;
+}
+
 .ul_flex {
     display: flex;
+    justify-content: space-between;
+}
+
+.link_list_1 > ul > li {
+    list-style: none;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #050505;
+    height: 600px;
+}
+
+.footer_flex_items {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 100px;
+}
+.footer_p {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-top: 80px;
+    border-bottom: 1px solid grey;
+}
+.orange_footer_text {
+    color: orange;
 }
 
