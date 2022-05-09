@@ -17,10 +17,6 @@ header{
     align-items: center;
     
 }
-#nav_list > li > a{
-    list-style: none;
-    color: white;
-}
 
 
 .nav_main > ul > li {

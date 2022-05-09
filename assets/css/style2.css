@@ -381,6 +381,11 @@ main {
     padding-bottom: 10px;
     padding-right: 0px;
 }
+#nav_list > li > a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
 
 .tick_bullets {
     list-style-image: url(../icons/icons8-checked-checkbox-30.png);    
