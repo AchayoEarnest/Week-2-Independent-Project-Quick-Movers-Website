@@ -2,7 +2,7 @@
 
 ## By Earnest Achayo
 
- ![image](./assets/images/)
+ ![image](./assets/images/Desktopview.png)
  ![image](./assets/images/)
 
 ## Table of Content

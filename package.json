@@ -4,7 +4,8 @@
   "description": "## By Earnest Achayo",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d Quick_movers_websiten"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,7 @@
     "url": "https://github.com/AchayoEarnest/Week-2-Independent-Project-Quick-Movers-Website/issues"
   },
   "homepage": "https://github.com/AchayoEarnest/Week-2-Independent-Project-Quick-Movers-Website",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "gh-pages": "^3.2.3"
   }
 }
