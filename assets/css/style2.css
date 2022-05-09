@@ -440,16 +440,20 @@ footer{
     color: orange;
 }
 
-.third_p_btn {
-    width: 250px;
-    height: 80px;
+.footer_btn {
+    width: 200px;
+    height: 70px;
     margin-top: 50px;
     background-color: orange;
     border-style: none;
-    color: white;
-    font-size: 30px;
+    color: black;
+    font-size: 20px;
     border-top-right-radius: 25px;
     float: right;
     margin-right: 200px;
     cursor: pointer;
+}
+
+#span_arrow {
+    color: white;
 }
