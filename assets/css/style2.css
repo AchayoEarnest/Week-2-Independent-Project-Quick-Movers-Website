@@ -57,7 +57,7 @@ main {
     margin-right: 100px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 500px 82px 115px 350px 450px;
+    grid-template-rows: 500px 82px 115px 350px 325px;
     gap: 15px;
     padding: 15px;
     min-width: 950px;
@@ -388,16 +388,16 @@ main {
 }
 
 .tick_bullets {
-    list-style-image: url(../icons/tickbox_bullets.png );
-    font-size: 20px;    
+    
+    font-size: 20px; 
+    list-style: none;   
 }
 
-
-
-.tick_bullets > li {
-    margin-top: 0;
+.tick_styling {
+    width: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
-
 
 #social_handle {
     width: 30px;   
