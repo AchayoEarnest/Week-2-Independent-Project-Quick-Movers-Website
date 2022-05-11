@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', 'Actor', 'Adamina';
+    font-family: 'Actor';
 }
 
 .main div {
@@ -57,7 +57,7 @@ main {
     margin-right: 100px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 500px 82px 115px 350px 400px;
+    grid-template-rows: 500px 82px 115px 350px 450px;
     gap: 15px;
     padding: 15px;
     min-width: 950px;
@@ -388,15 +388,16 @@ main {
 }
 
 .tick_bullets {
-    list-style-image: url(../icons/icons8-checked-checkbox-30.png);    
+    list-style-image: url(../icons/tickbox_bullets.png );
+    font-size: 20px;    
 }
+
+
 
 .tick_bullets > li {
     margin-top: 0;
 }
-li::marker {
-    image-s: 3px;
-}
+
 
 #social_handle {
     width: 30px;   
